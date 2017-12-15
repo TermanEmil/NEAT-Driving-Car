@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: db8e1ab9f73dcae40b9126ef5360295e
+timeCreated: 1510670238
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back_mirror
+    100002: backViper
+    100004: Card_back
+    100006: Card_front
+    100008: Console
+    100010: Console_driver
+    100012: Core03
+    100014: Core04
+    100016: Core05
+    100018: Core06
+    100020: Driver
+    100022: Fin_h01
+    100024: Fin_h02
+    100026: Fin_v01
+    100028: Fin_v02
+    100030: Fin_v03
+    100032: Fog_fin
+    100034: Front_line
+    100036: Grill02
+    100038: Grill_default
+    100040: Handle_back
+    100042: //RootNode
+    100044: Ist_back
+    100046: L_door
+    100048: L_door02
+    100050: L_Handle
+    100052: L_Handle02
+    100054: L_mirror
+    100056: light
+    100058: Logo_base01
+    100060: Muffler_default
+    100062: Oil
+    100064: R_door
+    100066: R_door02
+    100068: R_Handle
+    100070: R_Handle02
+    100072: R_mirror
+    100074: RadioWireless
+    100076: Rain_Spray
+    100078: Seat
+    100080: Siidelight
+    100082: Skirt_front_A
+    100084: Skirt_front_B
+    100086: Skirt_rear
+    100088: spoiler_rear_default
+    100090: Spray_back
+    100092: top
+    100094: top_in
+    100096: toyota
+    100098: Tube03
+    100100: Tube04
+    100102: Tube05
+    100104: Tube06
+    100106: wiper_front01
+    100108: wiper_front02
+    400000: back_mirror
+    400002: backViper
+    400004: Card_back
+    400006: Card_front
+    400008: Console
+    400010: Console_driver
+    400012: Core03
+    400014: Core04
+    400016: Core05
+    400018: Core06
+    400020: Driver
+    400022: Fin_h01
+    400024: Fin_h02
+    400026: Fin_v01
+    400028: Fin_v02
+    400030: Fin_v03
+    400032: Fog_fin
+    400034: Front_line
+    400036: Grill02
+    400038: Grill_default
+    400040: Handle_back
+    400042: //RootNode
+    400044: Ist_back
+    400046: L_door
+    400048: L_door02
+    400050: L_Handle
+    400052: L_Handle02
+    400054: L_mirror
+    400056: light
+    400058: Logo_base01
+    400060: Muffler_default
+    400062: Oil
+    400064: R_door
+    400066: R_door02
+    400068: R_Handle
+    400070: R_Handle02
+    400072: R_mirror
+    400074: RadioWireless
+    400076: Rain_Spray
+    400078: Seat
+    400080: Siidelight
+    400082: Skirt_front_A
+    400084: Skirt_front_B
+    400086: Skirt_rear
+    400088: spoiler_rear_default
+    400090: Spray_back
+    400092: top
+    400094: top_in
+    400096: toyota
+    400098: Tube03
+    400100: Tube04
+    400102: Tube05
+    400104: Tube06
+    400106: wiper_front01
+    400108: wiper_front02
+    2300000: back_mirror
+    2300002: backViper
+    2300004: Card_back
+    2300006: Card_front
+    2300008: Console
+    2300010: Console_driver
+    2300012: Core03
+    2300014: Core04
+    2300016: Core05
+    2300018: Core06
+    2300020: Driver
+    2300022: Fin_h01
+    2300024: Fin_h02
+    2300026: Fin_v01
+    2300028: Fin_v02
+    2300030: Fin_v03
+    2300032: Fog_fin
+    2300034: Front_line
+    2300036: Grill02
+    2300038: Grill_default
+    2300040: Handle_back
+    2300042: Ist_back
+    2300044: L_door
+    2300046: L_door02
+    2300048: L_Handle
+    2300050: L_Handle02
+    2300052: L_mirror
+    2300054: light
+    2300056: Logo_base01
+    2300058: Muffler_default
+    2300060: Oil
+    2300062: R_door
+    2300064: R_door02
+    2300066: R_Handle
+    2300068: R_Handle02
+    2300070: R_mirror
+    2300072: RadioWireless
+    2300074: Rain_Spray
+    2300076: Seat
+    2300078: Siidelight
+    2300080: Skirt_front_A
+    2300082: Skirt_front_B
+    2300084: Skirt_rear
+    2300086: spoiler_rear_default
+    2300088: Spray_back
+    2300090: top
+    2300092: top_in
+    2300094: toyota
+    2300096: Tube03
+    2300098: Tube04
+    2300100: Tube05
+    2300102: Tube06
+    2300104: wiper_front01
+    2300106: wiper_front02
+    3300000: back_mirror
+    3300002: backViper
+    3300004: Card_back
+    3300006: Card_front
+    3300008: Console
+    3300010: Console_driver
+    3300012: Core03
+    3300014: Core04
+    3300016: Core05
+    3300018: Core06
+    3300020: Driver
+    3300022: Fin_h01
+    3300024: Fin_h02
+    3300026: Fin_v01
+    3300028: Fin_v02
+    3300030: Fin_v03
+    3300032: Fog_fin
+    3300034: Front_line
+    3300036: Grill02
+    3300038: Grill_default
+    3300040: Handle_back
+    3300042: Ist_back
+    3300044: L_door
+    3300046: L_door02
+    3300048: L_Handle
+    3300050: L_Handle02
+    3300052: L_mirror
+    3300054: light
+    3300056: Logo_base01
+    3300058: Muffler_default
+    3300060: Oil
+    3300062: R_door
+    3300064: R_door02
+    3300066: R_Handle
+    3300068: R_Handle02
+    3300070: R_mirror
+    3300072: RadioWireless
+    3300074: Rain_Spray
+    3300076: Seat
+    3300078: Siidelight
+    3300080: Skirt_front_A
+    3300082: Skirt_front_B
+    3300084: Skirt_rear
+    3300086: spoiler_rear_default
+    3300088: Spray_back
+    3300090: top
+    3300092: top_in
+    3300094: toyota
+    3300096: Tube03
+    3300098: Tube04
+    3300100: Tube05
+    3300102: Tube06
+    3300104: wiper_front01
+    3300106: wiper_front02
+    4300000: back_mirror
+    4300002: backViper
+    4300004: Card_back
+    4300006: Card_front
+    4300008: Console
+    4300010: Console_driver
+    4300012: Core03
+    4300014: Core04
+    4300016: Core05
+    4300018: Core06
+    4300020: Driver
+    4300022: Fin_h01
+    4300024: Fin_h02
+    4300026: Fin_v01
+    4300028: Fin_v02
+    4300030: Fin_v03
+    4300032: Fog_fin
+    4300034: Front_line
+    4300036: Grill02
+    4300038: Grill_default
+    4300040: Handle_back
+    4300042: Ist_back
+    4300044: L_door
+    4300046: L_door02
+    4300048: L_Handle
+    4300050: L_Handle02
+    4300052: L_mirror
+    4300054: light
+    4300056: Logo_base01
+    4300058: Muffler_default
+    4300060: Oil
+    4300062: R_door
+    4300064: R_door02
+    4300066: R_Handle
+    4300068: R_Handle02
+    4300070: R_mirror
+    4300072: RadioWireless
+    4300074: Rain_Spray
+    4300076: Seat
+    4300078: Siidelight
+    4300080: Skirt_front_A
+    4300082: Skirt_front_B
+    4300084: Skirt_rear
+    4300086: spoiler_rear_default
+    4300088: Spray_back
+    4300090: top
+    4300092: top_in
+    4300094: toyota
+    4300096: Tube03
+    4300098: Tube04
+    4300100: Tube05
+    4300102: Tube06
+    4300104: wiper_front01
+    4300106: wiper_front02
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backlight
+    second: {fileID: 2100000, guid: 23bd65d68b3c6a2498ee354ea32153ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: f02a266b1b519394ab6544152f4794d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: d385a1468f3e07844bec2ad62a0c6273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Breaklight
+    second: {fileID: 2100000, guid: 9ccad85682fc88448b106a1f5eb6bfd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Card_backMat
+    second: {fileID: 2100000, guid: ce91551c53c42754b9e79dcf0cf85e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Card_frontMat
+    second: {fileID: 2100000, guid: 945845da033e7434d8221a8ca2e56e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 5c21398939aa96e45af519e0d2293b2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ConsoleMat
+    second: {fileID: 2100000, guid: 8781fc2a24b8b5549b003bda589b75b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Console_driverMat
+    second: {fileID: 2100000, guid: 7226ac9b59e6e824089eda16ec58bfdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core
+    second: {fileID: 2100000, guid: 76f78c49ce8e03e4e87a2b59e27d2a7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core03Mat
+    second: {fileID: 2100000, guid: 7a1397a6179fc564e9ee55a57dfb635a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core04Mat
+    second: {fileID: 2100000, guid: 7ddc5ceddc2cc3b4c9f9f6f5dab9e127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core05Mat
+    second: {fileID: 2100000, guid: 81b0e527b0924ab4db13ec489f367bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core06Mat
+    second: {fileID: 2100000, guid: 9546ccc607d95134ebf7974c4aa2fc9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core_in
+    second: {fileID: 2100000, guid: a64b6f4b06f82d245b2e37e888e3ec26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DriverMat
+    second: {fileID: 2100000, guid: 7db526e985c9c2e49a8f3e0dfb4d7062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fin_h01Mat
+    second: {fileID: 2100000, guid: 1503d532b7f6399449a4020af2b549ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fin_h02Mat
+    second: {fileID: 2100000, guid: 8b4156039b592694dad3641b7a2e3c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fin_v01Mat
+    second: {fileID: 2100000, guid: b84d9b77082f3bb4ab16d1def20bf836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fin_v02Mat
+    second: {fileID: 2100000, guid: 52e9eebfe8c5bd44cb62e7023daebddd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fin_v03Mat
+    second: {fileID: 2100000, guid: 6b2ecc6208c810c449fcc95902421a5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fog_finMat
+    second: {fileID: 2100000, guid: 5a576c8582141dd44be610e4c058012e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_lineMat
+    second: {fileID: 2100000, guid: 3fb8b6e5d3aed6749ac4a8ed2da5c222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: df93a095a2ef81940871ecf49c069308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Black
+    second: {fileID: 2100000, guid: 1b41e65b6070be54da0e137e413bee8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Dark
+    second: {fileID: 2100000, guid: a19f96f895a04d34f8efc0371dcb3b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill
+    second: {fileID: 2100000, guid: 4e7e7e5d4f2c7954c9cf1e5cf11c48dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill02Mat
+    second: {fileID: 2100000, guid: 787825c6a36a4ee4ea5601c5c85ea03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_defaultMat
+    second: {fileID: 2100000, guid: dc9bbd9ea2207804bbc80dcfdf3d7137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_backMat
+    second: {fileID: 2100000, guid: 7166e60831fe35b4896b4f6375a7f61e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Headlight
+    second: {fileID: 2100000, guid: 1babbc4a08a13a44e9d3c9e1f2a0a237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ist
+    second: {fileID: 2100000, guid: 5e06d0bf3eef8a2489beaf5b506b2f98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ist_backMat
+    second: {fileID: 2100000, guid: 6de9a11346d6f874891ddbbe5b027aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Handle02Mat
+    second: {fileID: 2100000, guid: 9904ee4a1be3d9a49b3d463fe309b373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_HandleMat
+    second: {fileID: 2100000, guid: ad747af2c38568a41b8f2bb9821bf905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_door02Mat
+    second: {fileID: 2100000, guid: 120ec67e0a99714468e66bbab6a678f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_doorMat
+    second: {fileID: 2100000, guid: a679405da7476fe44ab48e32098e4a46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_mirrorMat
+    second: {fileID: 2100000, guid: 7d71eecdbd84c6442816f00808bca530, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Logo
+    second: {fileID: 2100000, guid: 052f28dbf123fa24097695726dc24f6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Logo_base01Mat
+    second: {fileID: 2100000, guid: 76fa2c9c028e78748b59b74d33b4d752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Black
+    second: {fileID: 2100000, guid: cf3f0a6ce6e0c814fb64f72c9d1daae9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muffler_defaultMat
+    second: {fileID: 2100000, guid: 038f3743a73c86247892767cb65bfe9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OilMat
+    second: {fileID: 2100000, guid: 3dc413e39b8e931428ac65a29eb39f2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R_Handle02Mat
+    second: {fileID: 2100000, guid: 9c725e807af4a8d43b331f94ad822b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R_HandleMat
+    second: {fileID: 2100000, guid: d9c6019e19a8f2a439333c58078da04d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R_door02Mat
+    second: {fileID: 2100000, guid: c8acd0eccb320b64bab8829c5243fd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R_doorMat
+    second: {fileID: 2100000, guid: 4fa039f4e44a6c2489ef49cfb2868816, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R_mirrorMat
+    second: {fileID: 2100000, guid: 016aacbad840e0a4b93ad380ec635adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RadioWirelessMat
+    second: {fileID: 2100000, guid: 5670e53b2e2c119488b74c07d70a0c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rain_SprayMat
+    second: {fileID: 2100000, guid: b485d251e67d1c64a85b465e16b1186b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SeatMat
+    second: {fileID: 2100000, guid: 328e33b7663ff8b4998eb661ce2b5834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidelight
+    second: {fileID: 2100000, guid: 27aa4833b4ada4643802f40e3ab6307d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SiidelightMat
+    second: {fileID: 2100000, guid: 448c2ded9aac25448a64e73fdc1e7d64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirt_front_AMat
+    second: {fileID: 2100000, guid: d7361539ca4d76c4b892c915936a1446, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirt_front_BMat
+    second: {fileID: 2100000, guid: 18d8a71aff2533a4aaeb7dcc5a7b022b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirt_rearMat
+    second: {fileID: 2100000, guid: f0413bfe3073833418cb66e465f8307e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spray_backMat
+    second: {fileID: 2100000, guid: 9cde107dd8bda8749a3263ded12049b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire
+    second: {fileID: 2100000, guid: 4cfc76a137743064eb104d9dbaee3f8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube03Mat
+    second: {fileID: 2100000, guid: 0c526cceca93bd2478a3592775e19853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube04Mat
+    second: {fileID: 2100000, guid: 98086fbe83aa36b40b837eb6486d04d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube05Mat
+    second: {fileID: 2100000, guid: d37bdbeb733d5e843b4b58fd5d9e36da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube06Mat
+    second: {fileID: 2100000, guid: 975bedd396163e142b0f182c597c21f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backViperMat
+    second: {fileID: 2100000, guid: a9f8056027975ff46abb588f2f7f0d08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_mirrorMat
+    second: {fileID: 2100000, guid: a162443b24b457042be2c0e5ab493a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: istback
+    second: {fileID: 2100000, guid: 6e1bd9b2bfbbf634bb27d44ffe14d5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightMat
+    second: {fileID: 2100000, guid: 7cfe122de351a6040b9cba80c37b4131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2100000, guid: bde1745bf6e73994d8106abb6c963bd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spoiler_rear_defaultMat
+    second: {fileID: 2100000, guid: 715416eb323a62441a26a23450c581b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topMat
+    second: {fileID: 2100000, guid: 774d4e710947482419782c3471c02df8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_inMat
+    second: {fileID: 2100000, guid: 6182228e66381e344bb9a97c3af1f440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toyotaMat
+    second: {fileID: 2100000, guid: fc497397c0153ce439916c8c2615ee01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wiper_front01Mat
+    second: {fileID: 2100000, guid: 5b3928378148a224f8ebbe787b941f93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wiper_front02Mat
+    second: {fileID: 2100000, guid: d1f4e57f491e93a4ab8f894cf4eab0b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_087224143
+    second: {fileID: 2100000, guid: a31a64777ce55e040b01bbac600c82eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_087224198
+    second: {fileID: 2100000, guid: d79e0bc8db0545b4f8b745820c5c0fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_088088225
+    second: {fileID: 2100000, guid: ea5cd4621a3d79542958a3c1cf5396a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_088143225
+    second: {fileID: 2100000, guid: 595a26e18ba547145bdbadcc2537fbe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_134059008
+    second: {fileID: 2100000, guid: 505b6b34094196a419d5b848bd6306a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_214228153
+    second: {fileID: 2100000, guid: c2b5037911cf8cf4a96c10c6a78d1829, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_225088199
+    second: {fileID: 2100000, guid: 017e8ae97db988647a014486fd1e8d85, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 1
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
