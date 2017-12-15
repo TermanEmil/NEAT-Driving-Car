@@ -1,0 +1,334 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 12.05.2008 17:46:39
+
+newmtl Body
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\body_color.gif
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\body_color.gif
+	map_refl \\Dwserver\Libraly (E)\Car-model\ist\map\ref6a.jpg
+
+newmtl Black
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Metal_Black
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2000 0.2000 0.2000
+	Ks 0.2800 0.2800 0.2800
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Glass_Black
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0627 0.0627 0.0627
+	Ks 1.7500 1.7500 1.7500
+	Ke 0.0000 0.0000 0.0000
+	map_refl Z:\Car-model\estima-max9\map\LAKE3.jpg
+
+newmtl Glass_Dark
+	Ns 70.0000
+	Ni 1.5000
+	d 0.9000
+	Tr 0.9000
+	Tf 0.9000 0.9000 0.9000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1765 0.1882 0.1843
+	Ks 1.7500 1.7500 1.7500
+	Ke 0.0000 0.0000 0.0000
+	map_refl Z:\Car-model\estima-max9\map\LAKE3.jpg
+
+newmtl Glass
+	Ns 70.0000
+	Ni 1.5000
+	d 0.7000
+	Tr 0.7000
+	Tf 0.7000 0.7000 0.7000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4039 0.4392 0.4314
+	Ks 1.7500 1.7500 1.7500
+	Ke 0.0000 0.0000 0.0000
+	map_refl Z:\Car-model\estima-max9\map\LAKE3.jpg
+
+newmtl Headlight
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\Headlight.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\Headlight.jpg
+
+newmtl Breaklight
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\Breaklight.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\Breaklight.jpg
+
+newmtl Chrome
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 4.0000 4.0000 4.0000
+	Ke 0.0000 0.0000 0.0000
+	map_refl \\Dwserver\Libraly (E)\Car-model\ist\map\ref6.bmp
+
+newmtl Ist
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\IST.gif
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\IST.gif
+
+newmtl wire_214228153
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8392 0.8941 0.6000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_134059008
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.2314 0.0314
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_088088225
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3451 0.3451 0.8824
+	Ks 0.3500 0.3500 0.3500
+
+newmtl mirror
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 1.5750 1.5750 1.5750
+	Ke 0.0000 0.0000 0.0000
+	map_refl \\Dwserver\Libraly (E)\Car-model\ist\map\pano.jpg
+
+newmtl wire_087224198
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3412 0.8784 0.7765
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_088143225
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3451 0.5608 0.8824
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Tire
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1255 0.1255 0.1255
+	Ks 0.0753 0.0753 0.0753
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\tire_pattern.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\tire_pattern.jpg
+	map_bump \\Dwserver\Libraly (E)\Car-model\ist\map\tire_pattern.jpg
+	bump \\Dwserver\Libraly (E)\Car-model\ist\map\tire_pattern.jpg
+
+newmtl Core
+	Ns 6.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5020 0.5020 0.5020
+	Ks 0.2500 0.2500 0.2500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\Core.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\Core.jpg
+	map_bump \\Dwserver\Libraly (E)\Car-model\ist\map\Core.jpg
+	bump \\Dwserver\Libraly (E)\Car-model\ist\map\Core.jpg
+
+newmtl Core_in
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wire_225088199
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8824 0.3451 0.7804
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_087224143
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3412 0.8784 0.5608
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Grill
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\Grill.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\Grill.jpg
+	map_bump \\Dwserver\Libraly (E)\Car-model\ist\map\Grill.jpg
+	bump \\Dwserver\Libraly (E)\Car-model\ist\map\Grill.jpg
+
+newmtl Logo
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\Logo.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\Logo.jpg
+
+newmtl Sidelight
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\SideLight02.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\SideLight02.jpg
+
+newmtl istback
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.7000 0.7000 0.7000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\ISTlogo.jpg
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\ISTlogo.jpg
+
+newmtl Backlight
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.5880 0.5880 0.5880
+	map_Ka \\Dwserver\Libraly (E)\Car-model\ist\map\yoshikaH.gif
+	map_Kd \\Dwserver\Libraly (E)\Car-model\ist\map\yoshikaH.gif
