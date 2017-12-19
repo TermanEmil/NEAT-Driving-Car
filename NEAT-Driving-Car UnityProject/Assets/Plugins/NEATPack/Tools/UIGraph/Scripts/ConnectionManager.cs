@@ -1,4 +1,4 @@
-﻿#pragma warning disable 0168 // variable declared but not used.
+#pragma warning disable 0168 // variable declared but not used.
 #pragma warning disable 0219 // variable assigned but not used.
 #pragma warning disable 0414 // private field assigned but not used.
 
@@ -73,7 +73,14 @@ public class ConnectionManager : MonoBehaviour {
 
 	public static void RemoveConnection(Connection c) {
 		//don't use the property here. We don't want to create an instance when the scene loads
-		if (c != null && _instance != null) _instance.connections.Remove(c);
+		if (c != null && _instance != null)
+		{
+			_instance.connections.Remove(c);
+			if (Application.isPlaying)
+				Destroy(c.gameObject);
+			else
+				DestroyImmediate(c.gameObject);
+		}
 	}
 
 	public static void SortConnections() {
@@ -91,13 +98,22 @@ public class ConnectionManager : MonoBehaviour {
 		//fist clean any null entries
 		instance.connections.RemoveAll((Connection c) => {return c == null;});
 
-		//copy list because OnDestroy messages will modify the original
-		List<Connection> copy = new List<Connection>(instance.connections);
-		foreach (Connection c in copy) {
-			if (c && !c.isValid) {
-				DestroyImmediate(c.gameObject);
-			}
-		}
+		foreach (Transform child in instance.transform)
+			if (Application.isPlaying)
+				Destroy(child.gameObject);
+			else
+				DestroyImmediate(child.gameObject);
+
+		////copy list because OnDestroy messages will modify the original
+		//List<Connection> copy = new List<Connection>(instance.connections);
+		//foreach (Connection c in copy) {
+		//	if (c && !c.isValid) {
+		//		if (!Application.isPlaying)
+		//			DestroyImmediate(c.gameObject);
+		//		else
+		//			Destroy(c.gameObject);
+		//	}
+		//}
 	}
 
 	public static Connection CreateConnection(RectTransform t1, RectTransform t2 = null) {

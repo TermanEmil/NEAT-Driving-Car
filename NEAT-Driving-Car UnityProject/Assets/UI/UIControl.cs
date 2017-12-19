@@ -47,8 +47,11 @@ public class UIControl : MonoBehaviour
 	public void SaveBest()
 	{
 		var best = populationCar.Popl.Genomes.OrderByDescending(x => x.Fitness).ToArray()[0];
-		var fileName = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\";
-		fileName += "Generation" + populationCar.Popl.Generation + "F" + best.Fitness + ".genome";
+		var fileName = NEAT.GenomeSaver.GenerateSaveFilePath(
+			NEAT.GenomeSaver.DefaultSaveDir,
+			best.Fitness,
+			populationCar.Popl.Generation
+		);
 		NEAT.GenomeSaver.SaveGenome(best, fileName);
 		Debug.Log("Saved best genome to: " + fileName);
 	}
@@ -99,6 +102,9 @@ public class UIControl : MonoBehaviour
 			genomeToDraw = populationCar.GenomeProxies.OrderByDescending(x => x.GenomeProprety.Fitness).First();
 		lastDrawnGenomes.Add(genomeToDraw);
 
+
+		neatGraph.RemoveAllNodes();
+		neatGraph.RemoveAllNodes();
 		neatGraph.genomeProxyToDraw = genomeToDraw;
 		neatGraph.DrawGivenGenomeProxy();
 	}
@@ -109,6 +115,7 @@ public class UIControl : MonoBehaviour
 			return;
 
 		lastDrawnGenomes.Clear();
+		neatGraph.RemoveAllNodes();
 		neatGraph.RemoveAllNodes();
 	}
 

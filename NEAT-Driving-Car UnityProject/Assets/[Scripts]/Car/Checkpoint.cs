@@ -13,6 +13,8 @@ public class Checkpoint : MonoBehaviour
 	public bool isTeleport = false;
 	public Transform teleportPosition;
 
+	public List<GenomeCar> crossedBy = new List<GenomeCar>();
+
 	public void Teleport(Transform target)
 	{
 		target.transform.position = teleportPosition.position;

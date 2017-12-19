@@ -220,14 +220,16 @@ public class GenomeCar : GenomeProxy
 		{
 			var fitnessMult = CarSettings.Instance.finishFitnessMultiplier;
 
-			if (populationCar.firstToCrossFinish == null)
-			{
-				populationCar.firstToCrossFinish = this;
-				fitnessMult *= CarSettings.Instance.fitnessMultiplierForBeingFirst;
-			}
+			fitnessMult *= Mathf.Lerp(
+				1,
+				CarSettings.Instance.fitnessMultiplierForBeingFirst,
+				1f - (float)(populationCar.theRealFinish.crossedBy.Count) / populationCar.Config.genomeCount
+			);
+			populationCar.theRealFinish.crossedBy.Add(this);
 
 			AddFitness(GenomeProprety.Fitness * fitnessMult);
 			Die();
+			SaveGenome();
 		}
 	}
 
@@ -247,6 +249,22 @@ public class GenomeCar : GenomeProxy
 		}
 
 		checkpoint.Teleport(transform);
+	}
+
+	private void SaveGenome()
+	{
+		var dir = GenomeSaver.DefaultSaveDir + "SavedGenomes\\";
+		if (!System.IO.Directory.Exists(dir))
+			System.IO.Directory.CreateDirectory(dir);
+
+		var filePath = GenomeSaver.GenerateSaveFilePath(
+			dir, GenomeProprety.Fitness, populationCar.Popl.Generation
+		);
+
+		GenomeSaver.SaveGenome(
+			GenomeProprety,
+			filePath
+		);
 	}
 	#endregion
 }

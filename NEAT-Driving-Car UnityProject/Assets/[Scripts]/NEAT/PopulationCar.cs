@@ -10,8 +10,8 @@ public class PopulationCar : PopulationProxy
 	[SerializeField] private UnityEvent onGenerationChange = null;
 	[SerializeField] private UnityEvent onGenomeStatusChange = null;
 	[SerializeField] private Transform carSpawnPoint = null;
+	public Checkpoint theRealFinish = null;
 
-	[HideInInspector] public GenomeCar firstToCrossFinish = null;
 	public float maxVelocity = 55f;
 	public float maxNegativeVelocity = -5f;
 
@@ -20,7 +20,6 @@ public class PopulationCar : PopulationProxy
 	private GenomeColorCtrl genomeColorCtrl = new GenomeColorCtrl();
 
 	public bool EveryoneIsDead => cars.FirstOrDefault(x => !x.IsDone) == null;
-
 	protected override void Awake()
 	{
 		base.Awake();
@@ -56,7 +55,9 @@ public class PopulationCar : PopulationProxy
 	{
 		foreach (var car in cars)
 			car.Reinit(carSpawnPoint);
-		firstToCrossFinish = null;
+
+		if (theRealFinish != null)
+			theRealFinish.crossedBy.Clear();
 	}
 
 	public override void Evolve()

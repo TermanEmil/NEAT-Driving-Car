@@ -12,6 +12,19 @@ namespace NEAT
 	/// </summary>
 	public static class GenomeSaver
 	{
+		public static string DefaultSaveDir
+		{
+			get
+			{
+				return System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\";
+			}
+		}
+
+		public static string GenerateSaveFilePath(string dir, float fitness, int generation = 0)
+		{
+			return dir + "Generation" + generation + "F" + fitness + ".genome";
+		}
+
 		public static void SaveGenome(Genome genomeToSave, string filePath)
 		{
 			var bf = new BinaryFormatter();

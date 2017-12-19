@@ -146,7 +146,7 @@ MonoBehaviour:
     outputCount: 2
     weightInitRandomValue: 25
     chanceToDisableGeneIfDisabledInEitherParent: 0.9
-    maxStagnation: 10
+    maxStagnation: 20
     goodFitness: 100000000
     genomesToRememberForNextGeneration: 0.25
     minNbOfGenomesToKeep: 2
@@ -156,7 +156,7 @@ MonoBehaviour:
       nodeAddProb: 0.285
       nodeDelProb: 0.01
       connectionAddProb: 0.285
-      connectionDelProb: 0.05
+      connectionDelProb: 0.03
     weightMutation:
       prob: 0.2
       changeValProb: 0.95
@@ -165,7 +165,7 @@ MonoBehaviour:
       excessImpact: 1
       disjointImpact: 1
       weightMeanDifCoef: 0.6
-      threshold: 0.18
+      threshold: 0.22
   genomeProxyPrefab: {fileID: 1549711459307474, guid: 887c1259c12a14747985924851cbf200,
     type: 2}
   genomeProxyStorage: {fileID: 4642294660344170}
@@ -213,7 +213,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   carSpawnPoint: {fileID: 0}
-  firstToCrossFinish: {fileID: 0}
+  theRealFinish: {fileID: 0}
   maxVelocity: 55
   maxNegativeVelocity: -5
 --- !u!114 &114775940384815304
@@ -243,7 +243,7 @@ MonoBehaviour:
   startingCarLife: 600
   dieSpeed: 50
   targetFinishCrossTimes: 1
-  finishFitnessMultiplier: 2
-  fitnessMultiplierForBeingFirst: 2
+  finishFitnessMultiplier: 3
+  fitnessMultiplierForBeingFirst: 10
   fitnessPerUnit: 300
   maxTimeWithNoFitnessImprovement: 5

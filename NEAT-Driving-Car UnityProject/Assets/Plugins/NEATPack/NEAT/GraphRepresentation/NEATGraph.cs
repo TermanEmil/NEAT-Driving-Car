@@ -107,6 +107,7 @@ public class NEATGraph : MonoBehaviour
 			Debug.LogError("No genome proxy was given");
 			return;
 		}
+		RemoveAllNodes();
 		DrawGenome(genomeProxyToDraw.GenomeProprety);
 	}
 
@@ -125,6 +126,7 @@ public class NEATGraph : MonoBehaviour
 
 		nodes.Clear();
 		ConnectionManager.CleanConnections();
+		nodes.Clear();
 	}
 
 	// Create a ne random genome from the given parameters.
